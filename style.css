@@ -1,21 +1,56 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Creating classes */
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    gap: 10px;
+    margin: 0 auto;
+}
 
 .number {
     background-color: blue;
-    padding: 50px;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    color: white;
 }
+
 
 .fizz {
     background-color: green;
-    padding: 50px;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    color: white;
 }
+
 
 .buzz {
     background-color: yellow;
-    padding: 50px;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
 }
 
 .fizzbuzz {
     background-color: red;
-    padding: 50px;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    color: white;
 }

@@ -2,7 +2,7 @@ console.log("JS OK");
 
 // Function tocreate and add an element to the container in the DOM
 function createAndAppendElement(text, className) {
-    var element = document.createElement("div");
+    let element = document.createElement("div");
     element.textContent = text;
     element.className = className;
     document.getElementById("container").appendChild(element);
