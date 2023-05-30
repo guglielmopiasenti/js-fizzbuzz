@@ -33,5 +33,13 @@ Executing this program will print the numbers from 1 to 100 in the console, with
 
 ## Bonus part
 
-1. Create targets for DOM elements
-2.
+1. Create an HTML element, `<div>`, with an ID of "container" as the container in the DOM.
+2. Define a function, `createAndAppendElement`, that creates a new `<div>` element, sets its text content and class, and appends it as a child to the container using the `appendChild()` method.
+3. reusing and enlarging the previous loop: Iterate from 1 to 100 using a `for` loop.
+   - Inside the loop, check if the current number is divisible by both 3 and 5.
+   - If true, call `createAndAppendElement` with the text "FizzBuzz" and the class "fizzbuzz".
+   - If not, check if the number is divisible by 3.
+   - If true, call `createAndAppendElement` with the text "Fizz" and the class "fizz".
+   - If not, check if the number is divisible by 5.
+   - If true, call `createAndAppendElement` with the text "Buzz" and the class "buzz".
+   - If none of the above conditions are met, call `createAndAppendElement` with the current number and the class "number".

@@ -1,0 +1,21 @@
+/* Creating classes */
+
+.number {
+    background-color: blue;
+    padding: 50px;
+}
+
+.fizz {
+    background-color: green;
+    padding: 50px;
+}
+
+.buzz {
+    background-color: yellow;
+    padding: 50px;
+}
+
+.fizzbuzz {
+    background-color: red;
+    padding: 50px;
+}
