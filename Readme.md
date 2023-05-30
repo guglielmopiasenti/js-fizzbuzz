@@ -30,3 +30,8 @@ Apply different styles to the elements added to the DOM in BONUS 1, depending on
 3. Repeat the above steps for all numbers from 1 to 100.
 
 Executing this program will print the numbers from 1 to 100 in the console, with the replacements "Fizz" for multiples of 3, "Buzz" for multiples of 5, and "FizzBuzz" for multiples of both 3 and 5.
+
+## Bonus part
+
+1. Create targets for DOM elements
+2.
